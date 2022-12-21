@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Ubuntu&display=swap');
+
+body {
+  background-color: rgb(230, 230, 230);
+  font-family: 'Lato', sans-serif;
+  color: rgb(44, 44, 44);
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link {
+  /* background-image: linear-gradient(0deg, rgba(6, 6, 88, 0.793), rgba(6, 6, 88, 0.793)); */
+  background-color: rgba(6, 6, 88, 0.793);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.link:hover {
+  color:black;
+  background-color: lightblue;
+  cursor: pointer
+}
+
+.text-center {
+  text-align: center;
+}
+
+#banner {
+  background-image: linear-gradient(0deg, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3)), url(https://source.unsplash.com/random);
+  background-size: cover;
+  background-color: black;
+  color: white;
+  padding: 75px 0;
+}
+
+#banner h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#banner p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
